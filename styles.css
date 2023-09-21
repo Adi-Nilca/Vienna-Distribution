@@ -1,0 +1,177 @@
+@font-face {
+  font-family: myFont;
+  src: url(futura.ttf);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #0d0d0d;
+  color: white;
+  font-family: myFont;
+}
+
+#main {
+  text-align: center;
+}
+#footer {
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+.welcome-container {
+  font-size: 24px;
+}
+
+.age-check {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-line {
+  width: 3.6%;
+  border: 1px solid #54b3a1;
+  position: relative;
+  top: -50px;
+}
+
+.squares {
+  text-align: center;
+}
+
+.day,
+.month,
+.year {
+  font-size: 15px;
+  display: inline-block;
+  margin: 0 45px; /* Adjust the margin as needed for spacing */
+}
+
+.age-confirm {
+  text-align: center;
+}
+
+.age-confirm-btn {
+  margin-top: 70px;
+  border-radius: 27px;
+  background-color: #d94016;
+  padding: 15px 20px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #d94016;
+  width: 302px;
+}
+
+.boxes {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-box {
+  width: 150px;
+  height: 50px;
+  border: 2px solid white;
+  margin: 10px;
+}
+
+.colored-box {
+  position: absolute;
+  background-color: #54b3a1;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #54b3a1;
+  margin: 10px;
+  z-index: -1;
+  top: 10px;
+  left: 700px;
+}
+.colored-box2 {
+  position: absolute;
+  background-color: #54b3a1;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #54b3a1;
+  margin: 10px;
+  z-index: -1;
+  top: 10px;
+  left: 875px;
+}
+
+.colored-box3 {
+  position: absolute;
+  background-color: #54b3a1;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #54b3a1;
+  margin: 10px;
+  z-index: -1;
+  top: 10px;
+  left: 1050px;
+}
+
+#social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  letter-spacing: 1.5px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-box {
+  border: 1px solid white;
+  width: 50%;
+  margin-left: 480px;
+  background-color: black;
+  position: relative;
+  box-shadow: 0 0 0 10px black; /* Add a black box shadow to extend the background */
+  margin-right: -10px;
+  margin-bottom: -10px;
+}
+
+.footer-text {
+  margin-right: 200px;
+  font-size: small;
+}
+
+.footer-buttons {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.footer-acc-btn {
+  cursor: pointer;
+  border-radius: 27px;
+  background-color: #54b3a1;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid #54b3a1;
+}
+
+.footer-cookie-btn {
+  cursor: pointer;
+  border-radius: 27px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+}
